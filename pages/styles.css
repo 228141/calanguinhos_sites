@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/* Fonte personalizada */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FAF3E0; /* Fundo claro com tom rústico */
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #E67E22; /* Laranja queimado */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid #F4D03F; /* Amarelo sol */
+}
+
+/* Seção de Apresentação */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-image: url('images/sertao-bg.jpg'); /* Imagem de fundo */
+    background-size: cover;
+    color: #27AE60;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #2ECC71; /* Verde cacto */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #27AE60;
+}
+
+/* Seção de Serviços */
+.servicos {
+    background-color: #F4D03F; /* Amarelo sol */
+    padding: 50px;
+    text-align: center;
+}
+
+.servico-item {
+    margin: 20px 0;
+}
+
+.servico-item h4 {
+    font-size: 24px;
+    color: #B03A2E; /* Vermelho telha */
+}
+
+/* Seção de Contato */
+.contato {
+    background-color: #3498DB; /* Azul celeste */
+    padding: 50px;
+    color: white;
+}
+
+.contato-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contato-form input,
+.contato-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.contato-form button {
+    background-color: #E67E22;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contato-form button:hover {
+    background-color: #D35400;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #B03A2E; /* Vermelho telha */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
